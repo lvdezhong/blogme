@@ -115,7 +115,7 @@ System.out.println(str)
 ```
 ~~~
 
-### 数学公式
+<!-- ### 数学公式
 
 可以使用**MathJax**渲染*LaTeX*数学表达式。
 
@@ -139,7 +139,7 @@ $$
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
 \end{vmatrix}
 $$
-```
+``` -->
 
 ### 表格
 
