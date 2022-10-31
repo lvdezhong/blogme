@@ -26,8 +26,7 @@ UI给出的设计稿，一般是以iphone6屏幕大小为准，也就是宽高�
            n = Math.min(t.clientWidth, 500) / 4.14;
        t.style.fontSize = n + 'px';
        var i = parseFloat(window.getComputedStyle(t).fontSize);
-       n !== i && ((n = (n * n) / i), (t.style.fontSize = n + 'px')), 						(window.__REAL_FONT_SIZE__ = n),
-         window.addEventListener('resize', e);
+       n !== i && ((n = (n * n) / i), (t.style.fontSize = n + 'px')), (window.__REAL_FONT_SIZE__ = n), window.addEventListener('resize', e);
      })();
    </script>
    ```
